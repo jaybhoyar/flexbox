@@ -1,0 +1,411 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ------------------------------------     Custom CSS ------- */
+/* @font-face {
+    font-family: 'Mont';
+    src: url('../Mont/OTF/Mont-Black.otf'),
+        url('../Mont/OTF/Mont-Regular.otf'),
+        url('../Mont/TTF/Mont-Black.ttf') format('truetype'),
+        url('../Mont/TTF/Mont-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+
+/* General CSS======= */
+.padding {
+    padding: 20px 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.pd-lt {
+    padding-left: 70px;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #dfdfdf;
+}
+
+.border-left {
+    border-left: 1px solid #d1d1d1;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Header ------------------------=== */
+.header {
+    background-image: linear-gradient(to right, #4f4e77, #544975, #695381, #815990, #854f86);
+}
+
+.container {
+    width: 90%;
+    margin: 0 80px;
+}
+
+.flex-container-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.padding {
+    padding: 20px 0;
+}
+
+.title a {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-items {
+    margin: 10px 0;
+}
+
+.nav-items a {
+    color: #5EBD8B;
+    margin: 0px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-items a:hover {
+    color: rgb(60, 153, 103);
+}
+
+.flex-container-2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-1-1 {
+    width: 50%;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.welcome-text {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+.header-para {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgba(221, 221, 221, 0.897);
+    border-left: 1px solid rgba(149, 149, 149, 0.568);
+}
+
+.button {
+    margin-top: 30px;
+    background-color: #5EBD8B;
+    border: none;
+    padding: 16px 40px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+/* Main - Section I*/
+.section1 {
+    color: #7f7f7f;
+    font-size: 18px;
+
+}
+
+.container-flex {
+    display: flex;
+    padding: 50px;
+}
+.col-1{
+    background-color: #fff;
+
+}
+
+.section-heading {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #6b6b6b;
+}
+
+.section-para {
+    line-height: 2;
+    margin-right: 50px;
+}
+
+.section-button {
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    color: #666;
+}
+
+li {
+    padding-bottom: 35px;
+}
+
+li img {
+    margin-right: 15px;
+    margin-top: 5px;
+
+}
+
+/* section-2 */
+.section2 {
+    background-color: #f1f1f1;
+    font-size: 18px;
+    color: #6b6b6b;
+    padding-bottom: 70px;
+}
+
+.flex-container-3 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.col-2-1 {
+    width: 100%;
+    margin: 20px;
+    background-color: #fff;
+
+}
+.img-div {
+    font-size: 0;
+}
+.info {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    padding-left: 50px;
+}
+
+.info-heading {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.col-2-1 img {
+    display: inline-block;
+}
+
+.button2 {
+    margin: 30px 0;
+    padding: 14px 36px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.button2 :hover {
+    text-decoration: underline;
+}
+
+.center-button {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+/* Section 3 */
+
+.form-input {
+    width: 220px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 30px 30px 40px 0;
+    color: rgb(187, 187, 187);
+    border: 1px solid #cecece;
+
+}
+
+.textarea-input {
+    width: 77%;
+    margin-top: 0px;
+
+}
+
+.social-ul li i {
+    margin-right: 10px;
+    color: #5EBD8B;
+}
+
+.social-ul li {
+    line-height: 2;
+}
+
+/* Footer */
+.footer {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.footer-text {
+    display: inline-block;
+
+    padding: 50px;
+    color: #aaaaaa;
+    font-size: 14px;
+}

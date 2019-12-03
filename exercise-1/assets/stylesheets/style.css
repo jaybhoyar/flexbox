@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*--------------------------------------------------------    Custom CSS   -------------------------*/
+
+main {
+    margin: 30px 40px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.item {
+    width: 33%;
+    height: 280px;
+    background-position: center;
+     background-size: cover; 
+    border: 3px solid #000;
+    margin: 15px;
+    flex: 0 1 30%;
+    box-sizing: border-box;
+    box-shadow: 9px 10px 28px -5px rgb(105, 105, 105);
+
+}
+
+.item1 {
+    background-image: url('../images/01.jpg');
+}
+
+.item2 {
+    background-image: url('../images/02.jpeg');
+}
+
+.item3 {
+    background-image: url('../images/03.jpg');
+}
+
+.item4 {
+    background-image: url('../images/04.jpg');
+}
+
+.item5 {
+    background-image: url('../images/05.jpg');
+}
+
+.item6 {
+    background-image: url('../images/06.jpeg');
+}
+
+.item7 {
+    background-image: url('../images/07.jpeg');
+}
+
+.item8 {
+    background-image: url('../images/08.jpg');
+}
+
+.item9 {
+    background-image: url('../images/09.jpg');
+}
